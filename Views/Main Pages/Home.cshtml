@@ -1,0 +1,72 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ExploreWorld Travel Agency</title>
+    <link rel="stylesheet" href="~/Assets/CSS/style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <h1>ExploreWorld</h1>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Destinations</a></li>
+                <li><a href="#">Tours</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="banner">
+        <div id="slider">
+            <img src="https://via.placeholder.com/1200x400?text=Beach+Escape" alt="Beach Escape">
+            <img src="https://via.placeholder.com/1200x400?text=Mountain+Adventure" alt="Mountain Adventure" style="display:none;">
+            <img src="https://via.placeholder.com/1200x400?text=City+Tours" alt="City Tours" style="display:none;">
+        </div>
+        <button class="prev" onclick="changeSlide(-1)">&#10094;</button>
+        <button class="next" onclick="changeSlide(1)">&#10095;</button>
+    </section>
+
+    <section class="features">
+        <h2>Why Choose Us?</h2>
+        <div class="cards">
+            <div class="card">
+                <h3>Best Price Guarantee</h3>
+                <p>We offer competitive prices on all our tours and services.</p>
+            </div>
+            <div class="card">
+                <h3>24/7 Customer Support</h3>
+                <p>Our dedicated team is here to help you at any time.</p>
+            </div>
+            <div class="card">
+                <h3>Handpicked Hotels</h3>
+                <p>We carefully select the best hotels for your comfort and enjoyment.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="featured-tours">
+        <h2>Featured Tours</h2>
+        <div class="tours-container">
+            <!-- Sample tour -->
+            <div class="tour-item">
+                <img src="https://via.placeholder.com/300x200" alt="Sample Tour">
+                <h3>Paris Adventure</h3>
+                <p>Explore the romantic city of Paris with our guided tours.</p>
+            </div>
+            <!-- More tours -->
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 ExploreWorld. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
