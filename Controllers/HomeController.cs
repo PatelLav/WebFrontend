@@ -25,5 +25,9 @@ namespace WebFrontend.Controllers
         {
             return View();
         }
+        public ActionResult Images()
+        {
+            return View();
+        }
     }
 }
